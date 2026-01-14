@@ -58,9 +58,26 @@
 /* color first and last box */
 
 
-.exercise-item:nth-child(2) .exercise-name::before, 
+.exercise-item:nth-child(2) .exercise-name::before,
 .exercise-item:nth-child(4) .exercise-name::before {
     content: "⚡ ";
 }
 
 /* icon negli esercizi pari */
+
+
+
+input,
+select {
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+/* input style */
+
+
