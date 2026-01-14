@@ -48,3 +48,11 @@
 
 
 
+.exercise-item:first-child,
+.exercise-item:last-child {
+    background: #f0fff4;
+    border-left: 4px solid #2ecc71;
+    padding-left: 10px;
+}
+
+/* color first and last box */
