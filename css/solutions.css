@@ -1,0 +1,16 @@
+/* #regionfiamma */
+.stats-container>.stats-grid:first-of-type {
+    padding-top: 2.5rem;
+}
+
+.stats-container>.stats-grid:first-of-type>.stat-number::before {
+    content: "🔥";
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+}
+
+/* #endregionfiamma */
+
