@@ -78,6 +78,18 @@ select:focus {
     box-shadow: 0 0 5px blue;
     outline: none;
 }
-/* input style */
+
+/* input and select style */
 
 
+
+.save-btn {
+    background: linear-gradient(135deg, #6a7cff, #141fb7);
+}
+
+.save-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(79, 110, 247, 0.6);
+}
+
+/* button color and border shadow */
