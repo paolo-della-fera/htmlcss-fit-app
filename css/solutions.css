@@ -35,3 +35,16 @@
 }
 
 /* box shadow */
+
+
+
+.workout-section>.workout-plan:nth-of-type(2) {
+    background: #fff8c6;
+    border-left: 5px solid #ff9800;
+    padding-left: 15px;
+}
+
+/* color card workout-plan */
+
+
+
