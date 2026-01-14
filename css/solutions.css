@@ -1,16 +1,37 @@
-/* #regionfiamma */
 .stats-container>.stats-grid:first-of-type {
-    padding-top: 2.5rem;
+    position: relative;
+    padding-top: 2.6rem;
 }
 
-.stats-container>.stats-grid:first-of-type>.stat-number::before {
+
+.stats-container>.stats-grid:first-of-type::before {
     content: "🔥";
     position: absolute;
-    top: 10rem;
+    top: 0.8rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
-/* #endregionfiamma */
+/* add emoji of flame */
 
+
+
+.stats-container>.stats-grid:nth-child(3) .stat-number,
+.stats-container>.stats-grid:nth-child(3) .stat-label {
+    color: #fff;
+}
+
+.stats-container>.stats-grid:nth-child(3) {
+    background: linear-gradient(135deg, #6a7cff, #7b5dd6);
+    color: #fff;
+}
+
+/* bg color gradient */
+
+
+.stats-grid:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.600);
+}
+
+/* box shadow */
