@@ -112,3 +112,17 @@ select:focus {
     font-size: 12px;
     font-weight: bold;
 }
+
+/* menù nav attivo */
+
+.nav-item:hover {
+    background: #1f2a35;
+    color: blue;
+}
+
+.nav-item:first-child {
+    background: #1f2a35;
+    color: blue;
+}
+
+
