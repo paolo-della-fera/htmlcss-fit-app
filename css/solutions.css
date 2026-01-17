@@ -1,16 +1,16 @@
-.stats-container>.stats-grid:first-of-type {
+.stats-container>.stats-grid:first-child {
     position: relative;
     padding-top: 2.6rem;
 }
 
 
-.stats-container>.stats-grid:first-of-type::before {
+.stats-container>.stats-grid:first-child::before {
     content: "🔥";
     position: absolute;
     top: 0.8rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /* add emoji of flame */
@@ -38,7 +38,7 @@
 
 
 
-.workout-section>.workout-plan:nth-of-type(2) {
+.workout-section>.workout-plan:nth-child(3) {
     background: #fff8c6;
     border-left: 5px solid #ff9800;
     padding-left: 15px;
@@ -93,3 +93,22 @@ select:focus {
 }
 
 /* button color and border shadow */
+
+
+
+/* percentuale nella barra di progesso */
+
+.progress-fill {
+    position: relative;
+}
+
+.progress-fill::after {
+    content: "65%";
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
