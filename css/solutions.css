@@ -126,3 +126,26 @@ select:focus {
 }
 
 
+/* virgolette di citazione */
+
+.quote-box {
+    position: relative;
+}
+
+.quote-box::before {
+    content: '"';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+.quote-box::after {
+    content: '"';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    opacity: 0.3;
+}
